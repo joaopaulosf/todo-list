@@ -1,0 +1,23 @@
+.new-task {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    border-bottom: 1px solid var(--underline-lol);
+    margin-bottom: 80px;
+}
+
+.new-task > .task-form {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding-bottom: 12px;
+}
+
+.task-form .input-text{
+    flex-basis: 97%;
+    background-color: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 2rem;
+    outline: none;
+}

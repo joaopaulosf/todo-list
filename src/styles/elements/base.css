@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Poppins:wght@100;200;300;500&display=swap');
+
+html,
+body {
+    font-family: 'Fira Code', monospace;
+    font-size: 10px;
+    color: var(--text-primary);
+    height: 100%;
+    background-color: var(--moon-light);
+}

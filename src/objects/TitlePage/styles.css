@@ -1,0 +1,16 @@
+.title-page {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 79px 0;
+    opacity: .8;
+}
+
+.title-page > .title {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.title-page > .title-image {
+    width: 20px;
+}
