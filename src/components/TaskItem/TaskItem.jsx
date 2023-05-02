@@ -2,6 +2,7 @@ import React from "react";
 import { useContext } from "react";
 import { TaskContext } from "../../Context/TaskContext";
 import todolist from "../../images/todolist.png"
+import deleteCircle from "../../images/delete-circle.svg"
 import { ButtonDell } from "../ButtonDell/ButtonDell";
 import "./styles.css"
 
@@ -22,7 +23,7 @@ export const TaskItem =  () => {
                 list.map((task, index)=>(
                     <div className={task.isComplited? "task-item -completed" : "task-item"} key={index}>
                         <span onClick={()=> clickItem(index)} className="task-content">{task.text}</span>
-                        <ButtonDell task={task} src={"./src/images/delete-circle.svg"} alt="delete-icon"/>
+                        <ButtonDell task={task} src={deleteCircle} alt="delete-icon"/>
                     </div>
                 ))
             }

@@ -2,6 +2,7 @@ import React from "react";
 import { useContext } from "react";
 import { TaskContext } from "../../Context/TaskContext";
 import { Button } from "../Button/Button";
+import plusIcon from "../../images/plus.svg"
 import "./styles.css";
 
 
@@ -28,7 +29,7 @@ export const AddTask = () => {
                     value={item} 
                     placeholder="new task" 
                     onChange={(e)=>{setItem(e.target.value)}}/>
-                <Button src={"./src/images/plus.svg"} alt="plus-symbol"/>
+                <Button src={plusIcon} alt="plus-symbol"/>
             </form>
         </div>
     )
